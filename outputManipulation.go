@@ -1,5 +1,8 @@
 package main
-import ("fmt")
+
+import (
+	"fmt"
+)
 
 func main() {
 	// Constants in Go are declared using the const keyword, and their value cannot be changed after they are assigned
@@ -11,7 +14,7 @@ func main() {
 		lightSpeed = 299792458 // in meters per second
 		planckConstant = 6.62607015e-34 // in joule seconds
 	)
-	const planetName = "Earth", countryName = "USA", cityName = "New York"
+	const planetName, countryName, cityName = "Earth", "USA", "New York"
 
 	// have 3 function to print output
 	// fmt.Println() prints the output with a newline at the end
